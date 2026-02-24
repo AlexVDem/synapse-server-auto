@@ -50,7 +50,7 @@ sudo ufw reload
 
 ## 3. Подготовка к запуску
 1. Перейдите в каталог `synapse-server-auto/`.
-2. Отредактируйте файл `.env`:
+2. Переименуйте `example.env` в `.env` и отредактируйте файл `.env`:
    - `DOMAIN_NAME`: Ваш домен (например, `matrix.example.com`).
    - `FEDERATION_DOMAIN_WHITELIST`: Список доверенных серверов Matrix через запятую (например 'matrix.org, matrix.example.com'). 
    - `MAX_UPLOAD_SIZE`: Максимальный размер вложений (например, `10M`).
